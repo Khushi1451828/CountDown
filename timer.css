@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box ;
+   
+}
+.main{
+    width:100%;
+    height:100vh;
+    background:url('clock.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    color:rgb(208, 230, 213);
+    font-family: 'Edu SA Beginner', cursive;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+.title{
+    color:rgb(208, 230, 213,0.7);
+    
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#end-date{
+    font-family: 'Handjet', cursive;
+    color: rgb(19, 177, 19);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size:2rem;
+}
+.col{
+    width:1000px;
+    
+    color:white;
+    margin-top:20px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+.col div{
+    width:250px;
+    text-align: center;
+}
+input{
+    height:70px;
+    width:50%;
+    background-color: rgba(255,255,255,0.9);
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom:  10px;
+    box-shadow:inset  0 1px 5px 5px rgb(168, 167, 167);
+}
+label{
+    color: rgb(232, 138, 75);
+}
